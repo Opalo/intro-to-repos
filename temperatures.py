@@ -52,3 +52,15 @@ display(df.select(roundedTemp("unit", "temp")))
 # COMMAND ----------
 
 display(df.select(convertFtoC("unit", "temp")))
+
+# COMMAND ----------
+
+#md This is a simple markdown cell
+
+# COMMAND ----------
+
+df.count()
+
+# COMMAND ----------
+
+
